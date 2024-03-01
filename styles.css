@@ -30,10 +30,27 @@ header ul li {
 header,
 main,
 footer {
+    width: 1120px;
     border: dotted yellow;
-    margin: 0 100px 0 100px;
+    margin: 0 auto; /*centralizar caixas na págima*/
 }
 
 footer {
     background: #00e5fc;
+}
+
+/*Estilizacão do layout*/
+
+section{
+    float: left;
+}
+
+.secao-conteudo{
+    width: 80%;
+    float: left;
+}
+
+.secao-imagem{
+    width: 20%;
+    float: left;
 }
